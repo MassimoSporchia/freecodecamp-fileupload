@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title File Load page
+
+  body
+    h1 Welcome
+    p Load data in here    
+
+    form(method="post", enctype="multipart\/form-data", action="/fileUpload/")
+        input(type="file", name="file")
+        input(type="submit", value="upload")
+
+        
